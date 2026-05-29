@@ -1,0 +1,22 @@
+// Q20: Try-Catch Example
+import java.util.Scanner;
+
+public class TryCatchExample {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter dividend: ");
+        int a = sc.nextInt();
+        System.out.print("Enter divisor: ");
+        int b = sc.nextInt();
+
+        try {
+            int result = a / b;
+            System.out.println("Result: " + result);
+        } catch (ArithmeticException e) {
+            System.out.println("Error: Cannot divide by zero! " + e.getMessage());
+        } finally {
+            System.out.println("Division operation attempted.");
+        }
+        sc.close();
+    }
+}

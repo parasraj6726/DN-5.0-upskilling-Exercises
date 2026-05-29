@@ -1,0 +1,16 @@
+// Q6: Data Type Demonstration
+public class DataTypeDemo {
+    public static void main(String[] args) {
+        int myInt = 42;
+        float myFloat = 3.14f;
+        double myDouble = 3.141592653589793;
+        char myChar = 'J';
+        boolean myBoolean = true;
+
+        System.out.println("int: " + myInt);
+        System.out.println("float: " + myFloat);
+        System.out.println("double: " + myDouble);
+        System.out.println("char: " + myChar);
+        System.out.println("boolean: " + myBoolean);
+    }
+}
